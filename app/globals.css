@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@keyframes aright {
+    from{
+        transform: translateX(-50vw);
+        opacity: 0%;
+    }
+    30%{
+        opacity: 5%;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+@keyframes aleft {
+    from{
+        transform: translateX(150vw);
+        opacity: 0%;
+    }
+    30%{
+        opacity: 5%;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+.trig{
+    animation: aright 0.5s cubic-bezier(0.29, 0.23, 0, 1);
+    animation-timeline: view();
+    animation-range: entry 0% cover 60%;
+}
+.tlef{
+    animation: aleft 0.5s cubic-bezier(0.29, 0.23, 0, 1);
+    animation-timeline: view();
+    animation-range: entry 0% cover 60%;
+}
