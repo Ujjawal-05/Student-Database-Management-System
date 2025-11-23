@@ -39,10 +39,10 @@ Enter a roll number to view detailed attendance history for a specific student.
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** React.js, Tailwind CSS  
-- **Backend:** FastAPI / Node.js  
-- **Database:** MongoDB  
-- **HTTP Client:** Axios  
+- **Frontend:** React.js, Next.js 
+- **Backend:** Node.js + Next.js API Routes
+- **Database:** MongoDB with Mongoose
+- **Styling:** Tailwind CSS  
 
 ---
 
